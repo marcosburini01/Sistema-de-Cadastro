@@ -1,0 +1,8 @@
+create table usuario(
+cpf int(12) primary key not null,
+nome varchar(50) not null,
+idade int(99) not null,
+cidade int(20) not null,
+email varchar(60) not null,
+senha varchar(30) not null
+)
